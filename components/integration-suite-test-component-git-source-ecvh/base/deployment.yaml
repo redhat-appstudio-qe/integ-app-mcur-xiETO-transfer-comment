@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: integration-suite-test-component-git-source-ecvh
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images:c44bbd0b8fe34a4585f61bd0ab20b59a
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:add976d0f8924eb90805ec02cd627cf4170ef7c4d0e05ddc40fca58700c6cc5e
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
